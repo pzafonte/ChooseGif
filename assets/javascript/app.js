@@ -128,7 +128,10 @@ $(document).ready(function () {
   });
 
 
+  $("body").on("click", ".gif", toggleGIFState);
+
+
+
 
 });
 
-$("body").on("click", ".gif", toggleGIFState);
