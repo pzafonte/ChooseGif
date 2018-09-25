@@ -3,13 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Animal Buttons</title>
+  <title></title>
 </head>
 
+<h1>Choosey Memes Choose Gif</h1>
 <body>
-  <button data-animal="cat">meow</button>
-  <button data-animal="dog">woof</button>
-  <button data-animal="bird">chirp</button>
+  <div id="buttons-go-here"></div>
+  <form>
+    Get Images By Tag:<br>
+    <input type="text" id="search-text" name="gif-tags">
+    <input type="submit" id="get-gifs" value="Choose Gifs!">
+  </form>
   <div id="gifs-appear-here">
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
