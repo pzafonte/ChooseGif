@@ -1,0 +1,101 @@
+body {
+  background-color: lightgrey;
+}
+
+button,
+input[type=submit] {
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #27496d;
+  font-size       : 1.3em;
+  font-weight     : bold;
+  letter-spacing  : 0.03em;
+  text-align      : center;
+  width:120%;
+  margin: 7px;
+  padding: 3% 6%;
+
+}
+
+button:hover,
+input[type=submit]:hover {
+  background-color: #417cb8
+}
+
+button:active,
+input[type=submit]:active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
+}
+
+input {
+  background-color: white;
+  font-size       : 1.2em;
+
+  display         : block;
+  width           : 96%;
+  margin-bottom   : 8%;
+  padding         : 3% 2%;
+}
+
+h1 {
+  display: inline;
+  position: relative;
+  font: 200px Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color: rgba(0, 0, 255, 0.5);
+}
+
+h1:after {
+  content: "GifTastic";
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.leftPage {
+  float: left;
+  width: 60%;
+}
+.left{
+  float: left;
+}
+
+.rightPage {
+  float: right;
+  width: 33%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 840px;
+  margin: auto;
+  padding: 2.5% 0;
+}
+
+.gif {
+  float: left;
+  position: relative;
+  width: 31%;
+  margin: 0 2px 2px 0;
+}
+
+.gif img {
+  width: 100%;
+  height: 150px;
+}
+
+#buttons-go-here{
+  font-size: 1.15em;
+  float: left;
+  margin: 0 3% 3% 0;
+}

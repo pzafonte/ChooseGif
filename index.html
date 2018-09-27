@@ -3,19 +3,31 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>GifTastic</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<h1>Choosey Memes Choose Gif</h1>
 <body>
-  <div id="buttons-go-here"></div>
-  <form>
-    Get Images By Tag:<br>
-    <input type="text" id="search-text" name="gif-tags">
-    <input type="submit" id="get-gifs" value="Choose Gifs!">
-  </form>
-  <div id="gifs-appear-here">
+
+  <div class="container">
+  <h1> GifTastic</h1>
+
+  <div class="rightPage">
+    <h2>Search</h2>
+    <form>
+      <input type="text" id="search-text">
+      <input type="submit" id="get-gifs" value="Choose Gifs!">
+    </form>
+
+    <div id="buttons-go-here"></div>
+
   </div>
+
+  <div class="leftPage">
+    <h2>Click a Gif to Play It</h2>
+    <div id="gifs-appear-here"></div>
+  </div>
+</div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
