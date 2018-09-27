@@ -2,8 +2,7 @@
 
 GifTastic is a web application that pulls gifs from the GIPHY API and displays them on the page.
 
-##Operation
-
+## Operation
 
 Search for gifs by entering a word into the search bar. A history of search terms as well as predefined terms is stored below the search bar. Click on a search term to search according to that word.
 
